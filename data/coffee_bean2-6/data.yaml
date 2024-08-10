@@ -1,0 +1,13 @@
+names:
+- bad
+- good
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: coffee_bean2
+  url: https://universe.roboflow.com/coffeebean-bew0l/coffee_bean2/dataset/6
+  version: 6
+  workspace: coffeebean-bew0l
+test: D:\coffee\CoffeeBeanQualityDetection\data\coffee_bean2-6\test\images
+train: D:\coffee\CoffeeBeanQualityDetection\data\coffee_bean2-6\train\images
+val: D:\coffee\CoffeeBeanQualityDetection\data\coffee_bean2-6\valid\images
