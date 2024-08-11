@@ -1,14 +1,6 @@
 # CoffeeBeanQualityDetection
 Project for detecting coffee bean quality using YOLOv8. Includes model training, deployment on NVIDIA Jetson Nano, and conversion to TensorRT for optimized inference.
 
-## Table of Contents
-- [Setup](#setup)
-- [Installation](#installation)
-- [Training](#training)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Setup
 
 Ensure that you have Conda installed on your system. This project uses a Conda virtual environment for package management.
@@ -38,11 +30,3 @@ python train_yolov8_model.py --data-path /path/to/your/data --epochs 50 --batch-
 ## Deployment
 
 After training, you can deploy the model on an NVIDIA Jetson Nano. Convert the trained model to TensorRT for optimized inference.
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
