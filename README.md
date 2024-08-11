@@ -20,8 +20,8 @@ conda activate yolov8
 
 ## Installation
 
-1. (Install CUDA and cuDNN according to your GPU specifications.)[https://docs.nvidia.com/deeplearning/cudnn/latest/installation/overview.html#]
-2. (Install PyTorch, ensuring they are compatible with the CUDA version you have installed.)[https://pytorch.org/]
+1. [Install CUDA and cuDNN according to your GPU specifications.](https://docs.nvidia.com/deeplearning/cudnn/latest/installation/overview.html#)
+2. [Install PyTorch, ensuring they are compatible with the CUDA version you have installed.](https://pytorch.org/)
 3. Install the Ultralytics YOLOv8 package
 ```bash
 pip install ultralytics
