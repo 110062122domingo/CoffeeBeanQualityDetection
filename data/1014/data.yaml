@@ -1,0 +1,13 @@
+names:
+- bad
+- good
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: coffee_bean_keyence
+  url: https://universe.roboflow.com/coffeebean-bew0l/coffee_bean_keyence/dataset/3
+  version: 3
+  workspace: coffeebean-bew0l
+test: D:\coffee\CoffeeBeanQualityDetection\data\1014\test\images
+train: D:\coffee\CoffeeBeanQualityDetection\data\1014\train\images
+val: D:\coffee\CoffeeBeanQualityDetection\data\1014\train\images

@@ -16,7 +16,7 @@ def train_model(model_path, epochs, imgsz, batch_size, device):
     try:
         model = YOLO(model_path)
         model.train(
-            data=r'D:\coffee\CoffeeBeanQualityDetection\data\coffee_bean2-6\data.yaml',
+            data=r'D:\coffee\CoffeeBeanQualityDetection\data\1014\data.yaml',
             epochs=epochs,
             imgsz=imgsz,
             batch=batch_size,
@@ -27,10 +27,10 @@ def train_model(model_path, epochs, imgsz, batch_size, device):
 
 def main():
     parser = argparse.ArgumentParser(description="Train a YOLOv8 model for coffee bean quality detection.")
-    parser.add_argument('--model_path', type=str, default='yolov8n.pt', help='Path to the YOLOv8 model file.')
-    parser.add_argument('--epochs', type=int, default=25, help='Number of training epochs.')
+    parser.add_argument('--model_path', type=str, default=r'D:\coffee\CoffeeBeanQualityDetection\runs\detect\train13\weights\best.pt', help='Path to the YOLOv8 model file.')
+    parser.add_argument('--epochs', type=int, default=40, help='Number of training epochs.')
     parser.add_argument('--imgsz', type=int, default=640, help='Size of images for training.')
-    parser.add_argument('--batch_size', type=int, default=4, help='Batch size for training.')
+    parser.add_argument('--batch_size', type=int, default=8, help='Batch size for training.')
     parser.add_argument('--device', type=int, default=0, help='GPU device ID.')
 
     args = parser.parse_args()
