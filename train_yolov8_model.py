@@ -27,7 +27,7 @@ def train_model(model_path, epochs, imgsz, batch_size, device):
 
 def main():
     parser = argparse.ArgumentParser(description="Train a YOLOv8 model for coffee bean quality detection.")
-    parser.add_argument('--model_path', type=str, default=r'yolov8m.pt', help='Path to the YOLOv8 model file.')
+    parser.add_argument('--model_path', type=str, default=r'yolov8s.pt', help='Path to the YOLOv8 model file.')
     parser.add_argument('--epochs', type=int, default=240, help='Number of training epochs.')
     parser.add_argument('--imgsz', type=int, default=640, help='Size of images for training.')
     parser.add_argument('--batch_size', type=int, default=8, help='Batch size for training.')
